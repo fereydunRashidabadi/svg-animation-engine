@@ -1,0 +1,10 @@
+{
+  "name": "svg-animation-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic SVG animation timelines, rendering, audio and local MP4 export",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node --test tests/engine-public.test.mjs"},
+  "files": ["src/engine", "src/animations", "vendor", "API.md", "ENGINE_GUIDE.md", "docs/ENGINE_QUALITY.md"]
+}

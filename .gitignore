@@ -1,0 +1,32 @@
+# Default deny: publish only reusable engine code and public documentation.
+/*
+!/.gitignore
+!/API.md
+!/README.md
+!/ENGINE_GUIDE.md
+!/package.json
+!/src/
+/src/*
+!/src/engine/
+!/src/animations/
+!/vendor/
+!/docs/
+/docs/*
+!/docs/ENGINE_QUALITY.md
+!/tests/
+/tests/*
+!/tests/engine-public.test.mjs
+# Original creative material and project applications stay local.
+/assets/
+/audio/
+/content/
+/exports/
+/dist/
+/.history/
+/src/apps/
+/scripts/
+/AGENTS.md
+/package.local.json
+/package-lock.json
+/node_modules/
+*.log
